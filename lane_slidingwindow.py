@@ -4,6 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 import matplotlib.pyplot as plt
 
+# 수정함
 def histogram(warp_img):
 
     histogram = np.sum(warp_img[int(warp_img.shape[0]/2):, :], axis=0) 
