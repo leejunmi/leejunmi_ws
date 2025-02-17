@@ -1,4 +1,4 @@
-# test에서 수정함
+# test에서 수정함~~~
 import torch
 from ultralytics import YOLO
 import cv2
