@@ -1,0 +1,860 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e3afbcfa2c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3afbcf9d50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3afbcf9d50>>, mixin_verb=('build',))
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leejunmi/ros2_ws'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/img) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/img' with type 'ros.ament_python' and name 'img'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_intensity) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_intensity' with type 'ros.ament_python' and name 'lidar_intensity'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_description) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microstrain_inertial/microstrain_inertial_description' with type 'ros.ament_cmake' and name 'microstrain_inertial_description'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_driver) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microstrain_inertial/microstrain_inertial_driver' with type 'ros.ament_cmake' and name 'microstrain_inertial_driver'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_examples) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microstrain_inertial/microstrain_inertial_examples' with type 'ros.ament_cmake' and name 'microstrain_inertial_examples'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_msgs) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microstrain_inertial/microstrain_inertial_msgs' with type 'ros.ament_cmake' and name 'microstrain_inertial_msgs'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/microstrain_inertial/microstrain_inertial_rqt) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microstrain_inertial/microstrain_inertial_rqt' with type 'ros.ament_python' and name 'microstrain_inertial_rqt'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_test) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_test' with type 'ros.ament_python' and name 'msg_test'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/number) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/number' with type 'ros.ament_cmake' and name 'number'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkpk) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkpk' with type 'ros.ament_python' and name 'pkpk'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pkg' with type 'ros.ament_python' and name 'test_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 36 installed packages in /home/leejunmi/ros2_ws/install
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'img' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'img' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/img', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/img', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/img', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'lidar_intensity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_intensity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/lidar_intensity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/lidar_intensity', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/lidar_intensity', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'microstrain_inertial_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/microstrain_inertial_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/microstrain_inertial_description', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_description', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'microstrain_inertial_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/my_package', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'number' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'number' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/number', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/number', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/number', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'pkpk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'pkpk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/pkpk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/pkpk', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/pkpk', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/test_pkg', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/test_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'microstrain_inertial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/microstrain_inertial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_rqt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'microstrain_inertial_rqt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'msg_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'msg_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/msg_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/msg_test', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/msg_test', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'microstrain_inertial_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'microstrain_inertial_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leejunmi/ros2_ws/build/microstrain_inertial_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leejunmi/ros2_ws/install/microstrain_inertial_examples', 'merge_install': False, 'path': '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_examples', 'symlink_install': False, 'test_result_base': None}
+[0.413s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs'
+[0.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leejunmi/ros2_ws/src/number' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leejunmi/ros2_ws/src/number'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leejunmi/ros2_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leejunmi/ros2_ws/src/tutorial_interfaces'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/img' with build type 'ament_python'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('img', 'ament_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/img/share/img/hook/ament_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/img/share/img/hook/ament_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/img/share/img/hook/ament_prefix_path.sh'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/lidar_intensity' with build type 'ament_python'
+[0.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_intensity', 'ament_prefix_path')
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/ament_prefix_path.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/ament_prefix_path.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_description' with build type 'ament_cmake'
+[0.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_description'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/my_package' with build type 'ament_python'
+[0.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/pkpk' with build type 'ament_python'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkpk', 'ament_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/ament_prefix_path.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/ament_prefix_path.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/ament_prefix_path.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[0.918s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/img'
+[0.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/lidar_intensity'
+[1.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_description -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_description
+[1.794s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/my_package'
+[1.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.178s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/pkpk'
+[2.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
+[2.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/tutorial_interfaces
+[2.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_description -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_description
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/microstrain_inertial_description -- -j8 -l8
+[2.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/microstrain_inertial_description -- -j8 -l8
+[2.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/microstrain_inertial_description
+[2.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(number)
+[2.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number' for CMake module files
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number' for CMake config files
+[2.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('number', 'cmake_prefix_path')
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.dsv'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib'
+[2.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('number', 'ld_library_path_lib')
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.ps1'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.sh'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/bin'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib/pkgconfig/number.pc'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib/python3.10/site-packages'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/bin'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.ps1'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/number/share/number/package.dsv'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.sh'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.bash'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.zsh'
+[2.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/number/share/colcon-core/packages/number)
+[2.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(number)
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number' for CMake module files
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number' for CMake config files
+[2.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('number', 'cmake_prefix_path')
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.ps1'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.dsv'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/cmake_prefix_path.sh'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib'
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('number', 'ld_library_path_lib')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.ps1'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.dsv'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/number/share/number/hook/ld_library_path_lib.sh'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/bin'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib/pkgconfig/number.pc'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/lib/python3.10/site-packages'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/number/bin'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/number/share/number/package.dsv'
+[2.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.sh'
+[2.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.bash'
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/number/share/number/package.zsh'
+[2.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/number/share/colcon-core/packages/number)
+[2.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_description)
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description' for CMake module files
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/microstrain_inertial_description
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description' for CMake config files
+[2.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_description', 'cmake_prefix_path')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.ps1'
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.dsv'
+[2.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.sh'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/bin'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/lib/pkgconfig/microstrain_inertial_description.pc'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/lib/python3.10/site-packages'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/bin'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.dsv'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.sh'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.bash'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.zsh'
+[2.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/colcon-core/packages/microstrain_inertial_description)
+[2.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_description)
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description' for CMake module files
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description' for CMake config files
+[2.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_description', 'cmake_prefix_path')
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/hook/cmake_prefix_path.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/lib/pkgconfig/microstrain_inertial_description.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/lib/python3.10/site-packages'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/bin'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.dsv'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.sh'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.bash'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/microstrain_inertial_description/package.zsh'
+[2.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_description/share/colcon-core/packages/microstrain_inertial_description)
+[2.384s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/test_pkg' with build type 'ament_python'
+[2.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ament_prefix_path')
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.ps1'
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.dsv'
+[2.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.sh'
+[2.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/msg_test' with build type 'ament_python'
+[2.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_test', 'ament_prefix_path')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/ament_prefix_path.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/ament_prefix_path.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/ament_prefix_path.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces' for CMake module files
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces' for CMake config files
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/tutorial_interfaces
+[2.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib'
+[2.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/bin'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/bin'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[2.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[2.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[2.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[2.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces' for CMake module files
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces' for CMake config files
+[2.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib'
+[2.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[2.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/bin'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/tutorial_interfaces/bin'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[2.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[2.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[2.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[2.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/py_pubsub' with build type 'ament_python'
+[2.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[2.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.026s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/test_pkg'
+[3.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/msg_test'
+[3.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/py_pubsub'
+[3.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/img': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/lidar_intensity': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data
+[3.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/my_package': PYTHONPATH=/home/leejunmi/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/leejunmi/ros2_ws/build/my_package/build install --record /home/leejunmi/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[3.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/pkpk': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data
+[3.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs
+[3.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/microstrain_inertial_msgs -- -j8 -l8
+[4.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/py_pubsub': PYTHONPATH=/home/leejunmi/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejunmi/ros2_ws/build/py_pubsub/build install --record /home/leejunmi/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[4.621s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk' for CMake module files
+[4.622s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk' for CMake config files
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk/lib'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk/bin'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk/lib/pkgconfig/pkpk.pc'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages'
+[4.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkpk', 'pythonpath')
+[4.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/pythonpath.ps1'
+[4.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/pythonpath.dsv'
+[4.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/hook/pythonpath.sh'
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/pkpk/bin'
+[4.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkpk)
+[4.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/package.ps1'
+[4.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/pkpk' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data
+[4.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/package.dsv'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/package.sh'
+[4.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/package.bash'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/pkpk/share/pkpk/package.zsh'
+[4.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/pkpk/share/colcon-core/packages/pkpk)
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img' for CMake module files
+[4.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/img' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img' for CMake config files
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img/lib'
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img/bin'
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img/lib/pkgconfig/img.pc'
+[4.654s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages'
+[4.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('img', 'pythonpath')
+[4.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/img/share/img/hook/pythonpath.ps1'
+[4.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/img/share/img/hook/pythonpath.dsv'
+[4.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/img/share/img/hook/pythonpath.sh'
+[4.662s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/img/bin'
+[4.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(img)
+[4.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/img/share/img/package.ps1'
+[4.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/img/share/img/package.dsv'
+[4.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/img/share/img/package.sh'
+[4.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/img/share/img/package.bash'
+[4.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/img/share/img/package.zsh'
+[4.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/img/share/colcon-core/packages/img)
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity' for CMake module files
+[4.683s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity' for CMake config files
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity/lib'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity/bin'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity/lib/pkgconfig/lidar_intensity.pc'
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages'
+[4.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_intensity', 'pythonpath')
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/lidar_intensity' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data
+[4.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/pythonpath.ps1'
+[4.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/pythonpath.dsv'
+[4.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/hook/pythonpath.sh'
+[4.699s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/lidar_intensity/bin'
+[4.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_intensity)
+[4.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/package.ps1'
+[4.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/package.dsv'
+[4.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/package.sh'
+[4.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/package.bash'
+[4.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/lidar_intensity/share/lidar_intensity/package.zsh'
+[4.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/lidar_intensity/share/colcon-core/packages/lidar_intensity)
+[4.793s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package' for CMake module files
+[4.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/leejunmi/ros2_ws/build/my_package/build install --record /home/leejunmi/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package' for CMake config files
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package/lib'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package/bin'
+[4.796s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[4.796s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package/lib/python3.10/site-packages'
+[4.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[4.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[4.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[4.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[4.805s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/my_package/bin'
+[4.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[4.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/my_package/share/my_package/package.ps1'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/my_package/share/my_package/package.dsv'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/my_package/share/my_package/package.sh'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/my_package/share/my_package/package.bash'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/my_package/share/my_package/package.zsh'
+[4.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[4.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/msg_test': CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/number/lib:/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib:/home/leejunmi/ros2_ws/install/turtlesim/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/leejunmi/ros2_ws/build/msg_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/msg_test build --build-base /home/leejunmi/ros2_ws/build/msg_test/build install --record /home/leejunmi/ros2_ws/build/msg_test/install.log --single-version-externally-managed install_data
+[4.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/test_pkg': PYTHONPATH=/home/leejunmi/ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/leejunmi/ros2_ws/build/test_pkg/build install --record /home/leejunmi/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub' for CMake module files
+[5.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejunmi/ros2_ws/build/py_pubsub/build install --record /home/leejunmi/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub' for CMake config files
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub/lib'
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub/bin'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub/lib/python3.10/site-packages'
+[5.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[5.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[5.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[5.312s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/py_pubsub/bin'
+[5.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[5.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[5.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[5.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[5.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[5.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[5.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[5.387s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test' for CMake module files
+[5.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/msg_test' returned '0': CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/number/lib:/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib:/home/leejunmi/ros2_ws/install/turtlesim/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/leejunmi/ros2_ws/build/msg_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/msg_test build --build-base /home/leejunmi/ros2_ws/build/msg_test/build install --record /home/leejunmi/ros2_ws/build/msg_test/install.log --single-version-externally-managed install_data
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test' for CMake config files
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test/lib'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test/bin'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test/lib/pkgconfig/msg_test.pc'
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages'
+[5.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_test', 'pythonpath')
+[5.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/pythonpath.ps1'
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/pythonpath.dsv'
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/hook/pythonpath.sh'
+[5.392s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/msg_test/bin'
+[5.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_test)
+[5.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/package.ps1'
+[5.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/package.dsv'
+[5.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/package.sh'
+[5.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/package.bash'
+[5.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/msg_test/share/msg_test/package.zsh'
+[5.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/msg_test/share/colcon-core/packages/msg_test)
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg' for CMake module files
+[5.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/leejunmi/ros2_ws/build/test_pkg/build install --record /home/leejunmi/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg' for CMake config files
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg/lib'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg/bin'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages'
+[5.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath')
+[5.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.ps1'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.dsv'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.sh'
+[5.519s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/test_pkg/bin'
+[5.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[5.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/package.ps1'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/package.dsv'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/package.sh'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/package.bash'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/test_pkg/share/test_pkg/package.zsh'
+[5.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/test_pkg/share/colcon-core/packages/test_pkg)
+[39.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/microstrain_inertial_msgs -- -j8 -l8
+[39.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/microstrain_inertial_msgs
+[39.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_msgs)
+[39.822s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs' for CMake module files
+[39.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/microstrain_inertial_msgs
+[39.823s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs' for CMake config files
+[39.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_msgs', 'cmake_prefix_path')
+[39.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.ps1'
+[39.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.dsv'
+[39.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.sh'
+[39.826s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib'
+[39.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_msgs', 'ld_library_path_lib')
+[39.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.ps1'
+[39.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.dsv'
+[39.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.sh'
+[39.827s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/bin'
+[39.827s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib/pkgconfig/microstrain_inertial_msgs.pc'
+[39.828s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib/python3.10/site-packages'
+[39.828s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/bin'
+[39.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.ps1'
+[39.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.dsv'
+[39.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.sh'
+[39.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.bash'
+[39.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.zsh'
+[39.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/colcon-core/packages/microstrain_inertial_msgs)
+[39.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_msgs)
+[39.832s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs' for CMake module files
+[39.832s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs' for CMake config files
+[39.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_msgs', 'cmake_prefix_path')
+[39.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.ps1'
+[39.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.dsv'
+[39.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/cmake_prefix_path.sh'
+[39.835s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib'
+[39.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_msgs', 'ld_library_path_lib')
+[39.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.ps1'
+[39.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.dsv'
+[39.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/hook/ld_library_path_lib.sh'
+[39.837s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/bin'
+[39.837s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib/pkgconfig/microstrain_inertial_msgs.pc'
+[39.837s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib/python3.10/site-packages'
+[39.837s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/bin'
+[39.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.ps1'
+[39.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.dsv'
+[39.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.sh'
+[39.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.bash'
+[39.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/package.zsh'
+[39.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/share/colcon-core/packages/microstrain_inertial_msgs)
+[39.841s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver' with build type 'ament_cmake'
+[39.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver'
+[39.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt' with build type 'ament_python'
+[39.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_rqt', 'ament_prefix_path')
+[39.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/ament_prefix_path.ps1'
+[39.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/ament_prefix_path.dsv'
+[39.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/ament_prefix_path.sh'
+[39.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_driver': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_driver
+[40.224s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt'
+[40.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[40.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/microstrain_inertial_rqt build --build-base /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build install --record /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/install.log --single-version-externally-managed install_data
+[41.082s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt' for CMake module files
+[41.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt' returned '0': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/microstrain_inertial_rqt build --build-base /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build install --record /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/install.log --single-version-externally-managed install_data
+[41.083s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt' for CMake config files
+[41.084s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib'
+[41.084s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/bin'
+[41.084s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/pkgconfig/microstrain_inertial_rqt.pc'
+[41.084s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages'
+[41.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('microstrain_inertial_rqt', 'pythonpath')
+[41.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/pythonpath.ps1'
+[41.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/pythonpath.dsv'
+[41.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/hook/pythonpath.sh'
+[41.086s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/bin'
+[41.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_rqt)
+[41.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/package.ps1'
+[41.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/package.dsv'
+[41.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/package.sh'
+[41.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/package.bash'
+[41.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/package.zsh'
+[41.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/colcon-core/packages/microstrain_inertial_rqt)
+[41.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_driver' returned '1': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_driver
+[41.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microstrain_inertial_driver)
+[41.229s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver' for CMake module files
+[41.229s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver' for CMake config files
+[41.229s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/bin'
+[41.229s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/lib/pkgconfig/microstrain_inertial_driver.pc'
+[41.230s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/lib/python3.10/site-packages'
+[41.230s] Level 1:colcon.colcon_core.environment:checking '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/bin'
+[41.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.ps1'
+[41.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.dsv'
+[41.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.sh'
+[41.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.bash'
+[41.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.zsh'
+[41.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leejunmi/ros2_ws/install/microstrain_inertial_driver/share/colcon-core/packages/microstrain_inertial_driver)
+[41.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[41.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[41.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[41.243s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[41.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[41.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[41.251s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.267s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leejunmi/ros2_ws/install/local_setup.ps1'
+[41.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leejunmi/ros2_ws/install/_local_setup_util_ps1.py'
+[41.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leejunmi/ros2_ws/install/setup.ps1'
+[41.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leejunmi/ros2_ws/install/local_setup.sh'
+[41.273s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leejunmi/ros2_ws/install/_local_setup_util_sh.py'
+[41.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leejunmi/ros2_ws/install/setup.sh'
+[41.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leejunmi/ros2_ws/install/local_setup.bash'
+[41.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leejunmi/ros2_ws/install/setup.bash'
+[41.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leejunmi/ros2_ws/install/local_setup.zsh'
+[41.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leejunmi/ros2_ws/install/setup.zsh'

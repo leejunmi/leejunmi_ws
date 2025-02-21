@@ -1,0 +1,7 @@
+[0.030s] Invoking command in '/home/leejunmi/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/cpp_pubsub
+[0.061s] -- Configuring incomplete, errors occurred!
+[0.062s] [31mCMake Error at CMakeLists.txt:14 (if):
+[0.062s]   Flow control statements are not properly nested.
+[0.062s] 
+[0.063s] [0m
+[0.066s] Invoked command in '/home/leejunmi/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/cpp_pubsub

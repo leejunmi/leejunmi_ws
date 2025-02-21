@@ -1,0 +1,96 @@
+[0.005s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.516s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.576s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.645s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.668s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Looking for pthread.h
+[0.770s] -- Looking for pthread.h - found
+[0.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.835s] -- Found Threads: TRUE  
+[0.887s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.957s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.958s] -- Configured cppcheck include dirs: 
+[0.958s] -- Configured cppcheck exclude dirs and/or files: 
+[0.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.959s] -- Configured cpplint exclude dirs and/or files: 
+[0.959s] -- Added test 'lint_cmake' to check CMake code style
+[0.960s] -- Added test 'uncrustify' to check C / C++ code style
+[0.960s] -- Configured uncrustify additional arguments: 
+[0.961s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done
+[0.980s] -- Generating done
+[0.988s] -- Build files have been written to: /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher
+[0.997s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.999s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[1.057s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[1.057s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.059s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[1.061s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[1.061s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.063s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[9.558s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[9.759s] [ 58%] Built target publisher_not_composable
+[9.824s] [ 66%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[10.021s] [ 66%] Built target publisher_wait_for_all_acked
+[10.233s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[10.441s] [ 75%] Built target publisher_member_function_with_type_adapter
+[10.690s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[10.906s] [ 83%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[11.022s] [ 91%] [32m[1mLinking CXX executable publisher_lambda[0m
+[11.247s] [ 91%] Built target publisher_lambda
+[11.253s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[11.392s] [100%] Built target publisher_member_function
+[11.405s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[11.407s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher
+[11.413s] -- Install configuration: "Release"
+[11.413s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[11.414s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[11.414s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[11.415s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[11.415s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[11.416s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[11.416s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[11.416s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[11.416s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[11.417s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[11.417s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[11.417s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[11.417s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[11.418s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[11.419s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[11.422s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_publisher

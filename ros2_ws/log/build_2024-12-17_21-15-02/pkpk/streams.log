@@ -1,0 +1,30 @@
+[1.906s] Invoking command in '/home/leejunmi/ros2_ws/src/pkpk': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data
+[2.250s] running egg_info
+[2.251s] writing ../../build/pkpk/pkpk.egg-info/PKG-INFO
+[2.251s] writing dependency_links to ../../build/pkpk/pkpk.egg-info/dependency_links.txt
+[2.251s] writing entry points to ../../build/pkpk/pkpk.egg-info/entry_points.txt
+[2.251s] writing requirements to ../../build/pkpk/pkpk.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/pkpk/pkpk.egg-info/top_level.txt
+[2.254s] reading manifest file '../../build/pkpk/pkpk.egg-info/SOURCES.txt'
+[2.254s] adding license file 'LICENSE'
+[2.255s] writing manifest file '../../build/pkpk/pkpk.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.255s] copying pkpk/node1.py -> /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk
+[2.255s] copying pkpk/node2.py -> /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk
+[2.255s] copying pkpk/node3.py -> /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk
+[2.256s] running install
+[2.256s] running install_lib
+[2.260s] copying /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk/node1.py -> /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk
+[2.260s] copying /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk/node2.py -> /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk
+[2.260s] copying /home/leejunmi/ros2_ws/build/pkpk/build/lib/pkpk/node3.py -> /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk
+[2.260s] byte-compiling /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk/node1.py to node1.cpython-310.pyc
+[2.261s] byte-compiling /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk/node2.py to node2.cpython-310.pyc
+[2.261s] byte-compiling /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk/node3.py to node3.cpython-310.pyc
+[2.261s] running install_data
+[2.262s] running install_egg_info
+[2.264s] removing '/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk-0.0.0-py3.10.egg-info' (and everything under it)
+[2.264s] Copying ../../build/pkpk/pkpk.egg-info to /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk-0.0.0-py3.10.egg-info
+[2.265s] running install_scripts
+[2.286s] writing list of installed files to '/home/leejunmi/ros2_ws/build/pkpk/install.log'
+[2.327s] Invoked command in '/home/leejunmi/ros2_ws/src/pkpk' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data

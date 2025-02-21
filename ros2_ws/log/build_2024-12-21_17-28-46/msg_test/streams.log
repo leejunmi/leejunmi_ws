@@ -1,0 +1,23 @@
+[2.125s] Invoking command in '/home/leejunmi/ros2_ws/src/msg_test': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/number/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/msg_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/msg_test build --build-base /home/leejunmi/ros2_ws/build/msg_test/build install --record /home/leejunmi/ros2_ws/build/msg_test/install.log --single-version-externally-managed install_data
+[2.460s] running egg_info
+[2.461s] writing ../../build/msg_test/msg_test.egg-info/PKG-INFO
+[2.462s] writing dependency_links to ../../build/msg_test/msg_test.egg-info/dependency_links.txt
+[2.462s] writing entry points to ../../build/msg_test/msg_test.egg-info/entry_points.txt
+[2.462s] writing requirements to ../../build/msg_test/msg_test.egg-info/requires.txt
+[2.462s] writing top-level names to ../../build/msg_test/msg_test.egg-info/top_level.txt
+[2.465s] reading manifest file '../../build/msg_test/msg_test.egg-info/SOURCES.txt'
+[2.465s] adding license file 'LICENSE'
+[2.467s] writing manifest file '../../build/msg_test/msg_test.egg-info/SOURCES.txt'
+[2.467s] running build
+[2.467s] running build_py
+[2.467s] running install
+[2.470s] running install_lib
+[2.473s] running install_data
+[2.474s] running install_egg_info
+[2.477s] removing '/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages/msg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.478s] Copying ../../build/msg_test/msg_test.egg-info to /home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages/msg_test-0.0.0-py3.10.egg-info
+[2.479s] running install_scripts
+[2.520s] Installing p script to /home/leejunmi/ros2_ws/install/msg_test/lib/msg_test
+[2.520s] Installing s script to /home/leejunmi/ros2_ws/install/msg_test/lib/msg_test
+[2.521s] writing list of installed files to '/home/leejunmi/ros2_ws/build/msg_test/install.log'
+[2.561s] Invoked command in '/home/leejunmi/ros2_ws/src/msg_test' returned '0': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/number LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/number/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/msg_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/msg_test build --build-base /home/leejunmi/ros2_ws/build/msg_test/build install --record /home/leejunmi/ros2_ws/build/msg_test/install.log --single-version-externally-managed install_data

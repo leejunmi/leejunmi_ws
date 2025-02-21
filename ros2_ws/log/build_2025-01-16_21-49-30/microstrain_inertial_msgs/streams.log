@@ -1,0 +1,21 @@
+[0.054s] Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs': /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs
+[1.152s] -- Configuring incomplete, errors occurred!
+[1.153s] See also "/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs/CMakeFiles/CMakeOutput.log".
+[1.153s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.153s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.154s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.154s]   CMake did not find one.
+[1.154s] 
+[1.154s]   Could not find a package configuration file provided by "catkin" with any
+[1.154s]   of the following names:
+[1.154s] 
+[1.154s]     catkinConfig.cmake
+[1.155s]     catkin-config.cmake
+[1.155s] 
+[1.155s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.155s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.155s]   provides a separate development package or SDK, be sure it has been
+[1.155s]   installed.
+[1.155s] 
+[1.155s] [0m
+[1.457s] Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs' returned '1': /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs

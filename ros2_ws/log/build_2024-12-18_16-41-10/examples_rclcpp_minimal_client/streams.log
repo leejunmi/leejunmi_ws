@@ -1,0 +1,2 @@
+[0.032s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+[0.189s] [100%] Built target client_main

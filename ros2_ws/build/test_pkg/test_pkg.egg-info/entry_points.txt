@@ -1,0 +1,3 @@
+[console_scripts]
+test = test_pkg.my_node:main
+

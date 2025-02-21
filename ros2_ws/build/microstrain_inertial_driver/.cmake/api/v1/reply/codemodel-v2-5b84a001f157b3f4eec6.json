@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d780eaacf57bff8f2f21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk-69b0edc3ba23b254bf82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "microstrain_inertial_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MIP SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_lifecycle_node-b1791902a0b0e6084b2c.json",
+					"name" : "microstrain_inertial_driver_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_node-10ea4fc7de6e87ad7d78.json",
+					"name" : "microstrain_inertial_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_uninstall-bb4b2088fbad36610c9c.json",
+					"name" : "microstrain_inertial_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mip::@e754138309e93b14d62d",
+					"jsonFile" : "target-mip-b49855b53170eb605889.json",
+					"name" : "mip",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8724ae7627eec887bb17.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leejunmi/ros2_ws/build/microstrain_inertial_driver",
+		"source" : "/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

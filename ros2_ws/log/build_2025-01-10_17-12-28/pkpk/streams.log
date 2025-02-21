@@ -1,0 +1,21 @@
+[2.315s] Invoking command in '/home/leejunmi/ros2_ws/src/pkpk': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data
+[2.863s] running egg_info
+[2.864s] writing ../../build/pkpk/pkpk.egg-info/PKG-INFO
+[2.864s] writing dependency_links to ../../build/pkpk/pkpk.egg-info/dependency_links.txt
+[2.865s] writing entry points to ../../build/pkpk/pkpk.egg-info/entry_points.txt
+[2.865s] writing requirements to ../../build/pkpk/pkpk.egg-info/requires.txt
+[2.865s] writing top-level names to ../../build/pkpk/pkpk.egg-info/top_level.txt
+[2.867s] reading manifest file '../../build/pkpk/pkpk.egg-info/SOURCES.txt'
+[2.867s] adding license file 'LICENSE'
+[2.868s] writing manifest file '../../build/pkpk/pkpk.egg-info/SOURCES.txt'
+[2.868s] running build
+[2.869s] running build_py
+[2.869s] running install
+[2.869s] running install_lib
+[2.871s] running install_data
+[2.871s] running install_egg_info
+[2.873s] removing '/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk-0.0.0-py3.10.egg-info' (and everything under it)
+[2.874s] Copying ../../build/pkpk/pkpk.egg-info to /home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages/pkpk-0.0.0-py3.10.egg-info
+[2.874s] running install_scripts
+[2.897s] writing list of installed files to '/home/leejunmi/ros2_ws/build/pkpk/install.log'
+[2.958s] Invoked command in '/home/leejunmi/ros2_ws/src/pkpk' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data

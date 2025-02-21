@@ -1,0 +1,90 @@
+[0.005s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.462s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.497s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.623s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.683s] -- Looking for pthread.h
+[0.743s] -- Looking for pthread.h - found
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.808s] -- Found Threads: TRUE  
+[0.860s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.927s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.928s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.929s] -- Configured cppcheck include dirs: /home/leejunmi/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[0.929s] -- Configured cppcheck exclude dirs and/or files: 
+[0.930s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.930s] -- Configured cpplint exclude dirs and/or files: 
+[0.930s] -- Added test 'lint_cmake' to check CMake code style
+[0.931s] -- Added test 'uncrustify' to check C / C++ code style
+[0.931s] -- Configured uncrustify additional arguments: 
+[0.932s] -- Added test 'xmllint' to check XML markup files
+[0.941s] -- Configuring done
+[0.954s] -- Generating done
+[0.959s] -- Build files have been written to: /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.967s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor
+[0.969s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[1.020s] [ 10%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[1.021s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[1.021s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[1.021s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[1.021s] [ 70%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[1.022s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[1.022s] [ 70%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[14.793s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[14.976s] [ 80%] Built target pong
+[15.046s] [ 90%] [32m[1mLinking CXX executable ping_pong[0m
+[15.243s] [ 90%] Built target ping_pong
+[15.408s] [100%] [32m[1mLinking CXX executable ping[0m
+[15.563s] [100%] Built target ping
+[15.573s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[15.574s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor
+[15.581s] -- Install configuration: "Release"
+[15.581s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[15.582s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping" to ""
+[15.582s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[15.583s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong" to ""
+[15.583s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[15.584s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong" to ""
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/include
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[15.584s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.585s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[15.586s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[15.586s] -- Installing: /home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[15.588s] Invoked command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor

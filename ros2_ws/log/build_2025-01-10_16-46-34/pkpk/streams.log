@@ -1,0 +1,42 @@
+[2.436s] Invoking command in '/home/leejunmi/ros2_ws/src/pkpk': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data
+[2.731s] /home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.732s]   warnings.warn(msg)
+[2.859s] running egg_info
+[2.879s] writing ../../build/pkpk/pkpk.egg-info/PKG-INFO
+[2.881s] writing dependency_links to ../../build/pkpk/pkpk.egg-info/dependency_links.txt
+[2.882s] deleting ../../build/pkpk/pkpk.egg-info/entry_points.txt
+[2.883s] writing requirements to ../../build/pkpk/pkpk.egg-info/requires.txt
+[2.883s] writing top-level names to ../../build/pkpk/pkpk.egg-info/top_level.txt
+[2.924s] reading manifest file '../../build/pkpk/pkpk.egg-info/SOURCES.txt'
+[2.925s] adding license file 'LICENSE'
+[2.925s] Traceback (most recent call last):
+[2.925s]   File "/home/leejunmi/ros2_ws/src/pkpk/setup.py", line 5, in <module>
+[2.925s]     setup(
+[2.925s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.925s]     return distutils.core.setup(**attrs)
+[2.926s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[2.926s]     return run_commands(dist)
+[2.926s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[2.926s]     dist.run_commands()
+[2.926s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[2.926s]     self.run_command(cmd)
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command
+[2.927s]     super().run_command(command)
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[2.927s]     cmd_obj.run()
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 313, in run
+[2.927s]     self.find_sources()
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in find_sources
+[2.927s]     mm.run()
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run
+[2.927s]     self.prune_file_list()
+[2.927s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.928s]     super().prune_file_list()
+[2.928s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[2.928s]     base_dir = self.distribution.get_fullname()
+[2.928s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[2.928s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.928s]   File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[2.928s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.928s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.962s] Invoked command in '/home/leejunmi/ros2_ws/src/pkpk' returned '1': PYTHONPATH=/home/leejunmi/ros2_ws/build/pkpk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkpk build --build-base /home/leejunmi/ros2_ws/build/pkpk/build install --record /home/leejunmi/ros2_ws/build/pkpk/install.log --single-version-externally-managed install_data

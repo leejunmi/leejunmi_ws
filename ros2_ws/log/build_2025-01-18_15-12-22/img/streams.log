@@ -1,0 +1,23 @@
+[2.729s] Invoking command in '/home/leejunmi/ros2_ws/src/img': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data
+[3.364s] running egg_info
+[3.364s] writing ../../build/img/img.egg-info/PKG-INFO
+[3.364s] writing dependency_links to ../../build/img/img.egg-info/dependency_links.txt
+[3.368s] writing entry points to ../../build/img/img.egg-info/entry_points.txt
+[3.369s] writing requirements to ../../build/img/img.egg-info/requires.txt
+[3.369s] writing top-level names to ../../build/img/img.egg-info/top_level.txt
+[3.369s] reading manifest file '../../build/img/img.egg-info/SOURCES.txt'
+[3.369s] adding license file 'LICENSE'
+[3.369s] writing manifest file '../../build/img/img.egg-info/SOURCES.txt'
+[3.370s] running build
+[3.371s] running build_py
+[3.371s] running install
+[3.371s] running install_lib
+[3.371s] running install_data
+[3.371s] running install_egg_info
+[3.374s] removing '/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img-0.0.0-py3.10.egg-info' (and everything under it)
+[3.376s] Copying ../../build/img/img.egg-info to /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img-0.0.0-py3.10.egg-info
+[3.378s] running install_scripts
+[3.422s] Installing pub script to /home/leejunmi/ros2_ws/install/img/lib/img
+[3.422s] Installing sub script to /home/leejunmi/ros2_ws/install/img/lib/img
+[3.423s] writing list of installed files to '/home/leejunmi/ros2_ws/build/img/install.log'
+[3.546s] Invoked command in '/home/leejunmi/ros2_ws/src/img' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data

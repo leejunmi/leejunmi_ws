@@ -1,0 +1,29 @@
+[0.583s] Invoking command in '/home/leejunmi/ros2_ws/src/img': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data
+[0.869s] running egg_info
+[0.870s] writing ../../build/img/img.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../build/img/img.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/img/img.egg-info/entry_points.txt
+[0.871s] writing requirements to ../../build/img/img.egg-info/requires.txt
+[0.871s] writing top-level names to ../../build/img/img.egg-info/top_level.txt
+[0.873s] reading manifest file '../../build/img/img.egg-info/SOURCES.txt'
+[0.873s] adding license file 'LICENSE'
+[0.873s] writing manifest file '../../build/img/img.egg-info/SOURCES.txt'
+[0.874s] running build
+[0.874s] running build_py
+[0.874s] copying img/img_pub.py -> /home/leejunmi/ros2_ws/build/img/build/lib/img
+[0.874s] copying img/img_sub.py -> /home/leejunmi/ros2_ws/build/img/build/lib/img
+[0.874s] running install
+[0.875s] running install_lib
+[0.877s] copying /home/leejunmi/ros2_ws/build/img/build/lib/img/img_pub.py -> /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img
+[0.877s] copying /home/leejunmi/ros2_ws/build/img/build/lib/img/img_sub.py -> /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img
+[0.878s] byte-compiling /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img/img_pub.py to img_pub.cpython-310.pyc
+[0.879s] byte-compiling /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img/img_sub.py to img_sub.cpython-310.pyc
+[0.880s] running install_data
+[0.880s] running install_egg_info
+[0.883s] removing '/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img-0.0.0-py3.10.egg-info' (and everything under it)
+[0.883s] Copying ../../build/img/img.egg-info to /home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages/img-0.0.0-py3.10.egg-info
+[0.884s] running install_scripts
+[0.912s] Installing pub script to /home/leejunmi/ros2_ws/install/img/lib/img
+[0.912s] Installing sub script to /home/leejunmi/ros2_ws/install/img/lib/img
+[0.913s] writing list of installed files to '/home/leejunmi/ros2_ws/build/img/install.log'
+[0.939s] Invoked command in '/home/leejunmi/ros2_ws/src/img' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/img/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img build --build-base /home/leejunmi/ros2_ws/build/img/build install --record /home/leejunmi/ros2_ws/build/img/install.log --single-version-externally-managed install_data

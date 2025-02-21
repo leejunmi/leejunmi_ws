@@ -1,0 +1,22 @@
+[2.870s] Invoking command in '/home/leejunmi/ros2_ws/src/test_pkg': PYTHONPATH=/home/leejunmi/ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/leejunmi/ros2_ws/build/test_pkg/build install --record /home/leejunmi/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[3.460s] running egg_info
+[3.460s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[3.461s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[3.461s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[3.463s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[3.464s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[3.465s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.465s] adding license file 'LICENSE'
+[3.466s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[3.467s] running build
+[3.467s] running build_py
+[3.467s] running install
+[3.468s] running install_lib
+[3.470s] running install_data
+[3.472s] running install_egg_info
+[3.474s] removing '/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.474s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[3.477s] running install_scripts
+[3.521s] Installing test script to /home/leejunmi/ros2_ws/install/test_pkg/lib/test_pkg
+[3.522s] writing list of installed files to '/home/leejunmi/ros2_ws/build/test_pkg/install.log'
+[3.617s] Invoked command in '/home/leejunmi/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/leejunmi/ros2_ws/build/test_pkg/build install --record /home/leejunmi/ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data

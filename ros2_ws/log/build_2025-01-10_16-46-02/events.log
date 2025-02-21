@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000840] (img) JobQueued: {'identifier': 'img', 'dependencies': OrderedDict()}
+[0.000906] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000943] (number) JobQueued: {'identifier': 'number', 'dependencies': OrderedDict()}
+[0.000959] (pkpk) JobQueued: {'identifier': 'pkpk', 'dependencies': OrderedDict()}
+[0.000974] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000989] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.001003] (msg_test) JobQueued: {'identifier': 'msg_test', 'dependencies': OrderedDict([('number', '/home/leejunmi/ros2_ws/install/number')])}
+[0.001021] (number) JobStarted: {'identifier': 'number'}
+[0.008424] (img) JobStarted: {'identifier': 'img'}
+[0.016231] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.021446] (pkpk) JobStarted: {'identifier': 'pkpk'}
+[0.028370] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.034196] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[0.043190] (number) JobProgress: {'identifier': 'number', 'progress': 'cmake'}
+[0.043706] (number) JobProgress: {'identifier': 'number', 'progress': 'build'}
+[0.044261] (number) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leejunmi/ros2_ws/build/number', '--', '-j8', '-l8'], 'cwd': '/home/leejunmi/ros2_ws/build/number', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'leejunmi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leejunmi/ros2_ws/install/tutorial_interfaces/lib:/home/leejunmi/ros2_ws/install/turtlesim/lib:/home/leejunmi/ros2_ws/install/number/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leejunmi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1409'), ('SYSTEMD_EXEC_PID', '1753'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '48537'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/leejunmi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leejunmi'), ('JOURNAL_STREAM', '8:16735'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leejunmi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/leejunmi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leejunmi:@/tmp/.ICE-unix/1563,unix/leejunmi:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '666fe8ae9d554d13bbe04c00cf93f57c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0D5VZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ae5166dc-3b02-4e00-9f4a-58384453c5cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leejunmi/ros2_ws/build/number'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leejunmi/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/leejunmi/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/leejunmi/ros2_ws/install/test_pkg/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/pkpk/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/msg_test/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages:/home/leejunmi/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/img/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.102047] (-) TimerEvent: {}
+[0.202452] (-) TimerEvent: {}
+[0.302837] (-) TimerEvent: {}
+[0.403187] (-) TimerEvent: {}
+[0.503491] (-) TimerEvent: {}
+[0.603763] (-) TimerEvent: {}
+[0.704045] (-) TimerEvent: {}
+[0.804382] (-) TimerEvent: {}
+[0.904770] (-) TimerEvent: {}
+[1.005112] (-) TimerEvent: {}
+[1.099370] (number) StdoutLine: {'line': b'[  3%] Built target number__cpp\n'}
+[1.099666] (number) StdoutLine: {'line': b'[ 12%] Built target number__rosidl_generator_c\n'}
+[1.100031] (number) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_number\n'}
+[1.100122] (number) StdoutLine: {'line': b'[ 22%] Built target number__rosidl_typesupport_fastrtps_cpp\n'}
+[1.100206] (number) StdoutLine: {'line': b'[ 32%] Built target number__rosidl_typesupport_cpp\n'}
+[1.100287] (number) StdoutLine: {'line': b'[ 41%] Built target number__rosidl_typesupport_introspection_c\n'}
+[1.100383] (number) StdoutLine: {'line': b'[ 51%] Built target number__rosidl_typesupport_introspection_cpp\n'}
+[1.100473] (number) StdoutLine: {'line': b'[ 61%] Built target number__rosidl_typesupport_fastrtps_c\n'}
+[1.100976] (number) StdoutLine: {'line': b'[ 70%] Built target number__rosidl_typesupport_c\n'}
+[1.101060] (number) StdoutLine: {'line': b'[ 70%] Built target number\n'}
+[1.101125] (number) StdoutLine: {'line': b'[ 74%] Built target number__py\n'}
+[1.101187] (number) StdoutLine: {'line': b'[ 80%] Built target number__rosidl_generator_py\n'}
+[1.101247] (number) StdoutLine: {'line': b'[ 90%] Built target number__rosidl_typesupport_introspection_c__pyext\n'}
+[1.101306] (number) StdoutLine: {'line': b'[ 93%] Built target number__rosidl_typesupport_c__pyext\n'}
+[1.101364] (number) StdoutLine: {'line': b'[100%] Built target number__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.101428] (number) StdoutLine: {'line': b'running egg_info\n'}
+[1.101492] (number) StdoutLine: {'line': b'writing number.egg-info/PKG-INFO\n'}
+[1.101551] (number) StdoutLine: {'line': b'writing dependency_links to number.egg-info/dependency_links.txt\n'}
+[1.101607] (number) StdoutLine: {'line': b'writing top-level names to number.egg-info/top_level.txt\n'}
+[1.101663] (number) StdoutLine: {'line': b"reading manifest file 'number.egg-info/SOURCES.txt'\n"}
+[1.101720] (number) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.101798] (number) StderrLine: {'line': b'  File "/home/leejunmi/ros2_ws/build/number/ament_cmake_python/number/setup.py", line 4, in <module>\n'}
+[1.101857] (number) StderrLine: {'line': b'    setup(\n'}
+[1.101912] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[1.101967] (number) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.102021] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[1.102076] (number) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[1.102130] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[1.102185] (number) StderrLine: {'line': b'    dist.run_commands()\n'}
+[1.102239] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[1.102293] (number) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[1.102347] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command\n'}
+[1.102400] (number) StderrLine: {'line': b'    super().run_command(command)\n'}
+[1.102466] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[1.102522] (number) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[1.102576] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 313, in run\n'}
+[1.102630] (number) StderrLine: {'line': b'    self.find_sources()\n'}
+[1.102683] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in find_sources\n'}
+[1.102736] (number) StderrLine: {'line': b'    mm.run()\n'}
+[1.102790] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[1.102844] (number) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[1.102897] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[1.102952] (number) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[1.103005] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[1.103072] (number) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[1.103127] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[1.103181] (number) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[1.103234] (number) StderrLine: {'line': b'  File "/home/leejunmi/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[1.103288] (number) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[1.103342] (number) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[1.103396] (number) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_number_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_number_egg] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[1.103465] (number) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_number_egg.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[1.103521] (number) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[1.105217] (-) TimerEvent: {}
+[1.205474] (-) TimerEvent: {}
+[1.305787] (-) TimerEvent: {}
+[1.370077] (number) CommandEnded: {'returncode': 2}
+[1.391951] (number) JobEnded: {'identifier': 'number', 'rc': 2}
+[1.395391] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 'SIGINT'}
+[1.396266] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[1.396495] (img) JobEnded: {'identifier': 'img', 'rc': 'SIGINT'}
+[1.396690] (pkpk) JobEnded: {'identifier': 'pkpk', 'rc': 'SIGINT'}
+[1.396878] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[1.405871] (-) TimerEvent: {}
+[1.406648] (msg_test) JobSkipped: {'identifier': 'msg_test'}
+[1.406699] (-) EventReactorShutdown: {}

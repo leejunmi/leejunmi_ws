@@ -1,0 +1,26 @@
+[2.699s] Invoking command in '/home/leejunmi/ros2_ws/src/lidar_intensity': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data
+[3.255s] running egg_info
+[3.255s] writing ../../build/lidar_intensity/lidar_intensity.egg-info/PKG-INFO
+[3.255s] writing dependency_links to ../../build/lidar_intensity/lidar_intensity.egg-info/dependency_links.txt
+[3.255s] writing entry points to ../../build/lidar_intensity/lidar_intensity.egg-info/entry_points.txt
+[3.255s] writing requirements to ../../build/lidar_intensity/lidar_intensity.egg-info/requires.txt
+[3.255s] writing top-level names to ../../build/lidar_intensity/lidar_intensity.egg-info/top_level.txt
+[3.255s] reading manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+[3.255s] adding license file 'LICENSE'
+[3.257s] writing manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+[3.257s] running build
+[3.257s] running build_py
+[3.257s] copying lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity
+[3.258s] running install
+[3.258s] running install_lib
+[3.260s] copying /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity
+[3.263s] byte-compiling /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity/create_marker.py to create_marker.cpython-310.pyc
+[3.263s] running install_data
+[3.263s] running install_egg_info
+[3.269s] removing '/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info' (and everything under it)
+[3.269s] Copying ../../build/lidar_intensity/lidar_intensity.egg-info to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info
+[3.270s] running install_scripts
+[3.312s] Installing marker script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+[3.313s] Installing s script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+[3.313s] writing list of installed files to '/home/leejunmi/ros2_ws/build/lidar_intensity/install.log'
+[3.430s] Invoked command in '/home/leejunmi/ros2_ws/src/lidar_intensity' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data

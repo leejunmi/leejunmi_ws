@@ -1,0 +1,95 @@
+[0.829s] Invoking command in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/microstrain_inertial_rqt build --build-base /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build install --record /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/install.log --single-version-externally-managed install_data
+[1.154s] running egg_info
+[1.154s] creating ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info
+[1.155s] writing ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/PKG-INFO
+[1.155s] writing dependency_links to ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/dependency_links.txt
+[1.155s] writing requirements to ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/requires.txt
+[1.155s] writing top-level names to ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/top_level.txt
+[1.156s] writing manifest file '../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+[1.158s] reading manifest file '../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+[1.158s] adding license file 'LICENSE'
+[1.159s] writing manifest file '../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.159s] creating /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build
+[1.159s] creating /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib
+[1.160s] creating /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/filter_data.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/gnss_data.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/gq7_led.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/__init__.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/quickview.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/rtk_status.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/sensor_data.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt
+[1.160s] creating /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/constants.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/subscribers.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.160s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/__init__.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.161s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/common.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.161s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/services.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.161s] copying microstrain_inertial_rqt_common/src/microstrain_inertial_rqt/utils/widgets.py -> /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils
+[1.161s] running install
+[1.161s] running install_lib
+[1.162s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.162s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/filter_data.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.162s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/gnss_data.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.162s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/gq7_led.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.163s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/constants.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/subscribers.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/__init__.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/common.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/services.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/utils/widgets.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/__init__.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/quickview.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/rtk_status.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.163s] copying /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build/lib/microstrain_inertial_rqt/sensor_data.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt
+[1.164s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/filter_data.py to filter_data.cpython-310.pyc
+[1.165s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/gnss_data.py to gnss_data.cpython-310.pyc
+[1.166s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/gq7_led.py to gq7_led.cpython-310.pyc
+[1.166s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/constants.py to constants.cpython-310.pyc
+[1.168s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/subscribers.py to subscribers.cpython-310.pyc
+[1.173s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/__init__.py to __init__.cpython-310.pyc
+[1.173s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/common.py to common.cpython-310.pyc
+[1.174s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/services.py to services.cpython-310.pyc
+[1.175s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/utils/widgets.py to widgets.cpython-310.pyc
+[1.175s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/__init__.py to __init__.cpython-310.pyc
+[1.176s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/quickview.py to quickview.cpython-310.pyc
+[1.176s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/rtk_status.py to rtk_status.cpython-310.pyc
+[1.177s] byte-compiling /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt/sensor_data.py to sensor_data.cpython-310.pyc
+[1.177s] running install_data
+[1.177s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/ament_index
+[1.177s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/ament_index/resource_index
+[1.178s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/ament_index/resource_index/packages
+[1.178s] copying resource/microstrain_inertial_rqt -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/ament_index/resource_index/packages
+[1.178s] copying package.xml -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt
+[1.178s] copying launch/quickview_launch.py -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt
+[1.178s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common
+[1.178s] copying microstrain_inertial_rqt_common/plugin.xml -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common
+[1.178s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.178s] copying microstrain_inertial_rqt_common/resource/quickview.perspective -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.178s] copying microstrain_inertial_rqt_common/resource/GNSSData.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] copying microstrain_inertial_rqt_common/resource/GQ7LED.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] copying microstrain_inertial_rqt_common/resource/SensorData.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] copying microstrain_inertial_rqt_common/resource/RTKStatus.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] copying microstrain_inertial_rqt_common/resource/DeviceSelector.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] copying microstrain_inertial_rqt_common/resource/FilterData.ui -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+[1.179s] creating /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-yellow-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-blue-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-teal-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-blue-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-grey-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-green-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-grey-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.179s] copying microstrain_inertial_rqt_common/resource/icons/icon-red-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.180s] copying microstrain_inertial_rqt_common/resource/icons/icon-red-unchecked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.180s] copying microstrain_inertial_rqt_common/resource/icons/icon-green-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.180s] copying microstrain_inertial_rqt_common/resource/icons/icon-teal-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.180s] copying microstrain_inertial_rqt_common/resource/icons/icon-yellow-checked.png -> /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+[1.180s] running install_egg_info
+[1.182s] Copying ../../../build/microstrain_inertial_rqt/microstrain_inertial_rqt.egg-info to /home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain_inertial_rqt-4.3.0-py3.10.egg-info
+[1.183s] running install_scripts
+[1.205s] writing list of installed files to '/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/install.log'
+[1.235s] Invoked command in '/home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_rqt' returned '0': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt/lib/python3.10/site-packages:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/microstrain_inertial_rqt build --build-base /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/build install --record /home/leejunmi/ros2_ws/build/microstrain_inertial_rqt/install.log --single-version-externally-managed install_data

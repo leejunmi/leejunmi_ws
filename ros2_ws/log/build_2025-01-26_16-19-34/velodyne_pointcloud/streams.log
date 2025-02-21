@@ -1,0 +1,73 @@
+[0.023s] Invoking command in '/home/leejunmi/ros2_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:/home/leejunmi/ros2_ws/install/microstrain_inertial_description:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leejunmi/ros2_ws/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/velodyne_pointcloud
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.355s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.544s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.886s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.104s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.111s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.206s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.214s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.226s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.448s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.455s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.625s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.701s] -- Looking for pthread.h
+[1.810s] -- Looking for pthread.h - found
+[1.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.941s] -- Found Threads: TRUE  
+[2.075s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.113s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[2.149s] -- Checking for module 'eigen3'
+[2.172s] --   Found eigen3, version 3.4.0
+[2.222s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.222s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.284s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.288s] -- looking for PCL_COMMON
+[2.290s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.291s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[2.297s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.357s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.399s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.410s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.550s] -- Found velodyne_msgs: 2.5.1 (/home/leejunmi/ros2_ws/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[2.595s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.809s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.825s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.831s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.831s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/leejunmi/ros2_ws/src/velodyne/velodyne_pointcloud/include>
+[2.831s] -- Configured cppcheck exclude dirs and/or files: 
+[2.836s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.837s] -- Configured cpplint exclude dirs and/or files: 
+[2.838s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.840s] -- Added test 'lint_cmake' to check CMake code style
+[2.841s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.846s] -- Added test 'uncrustify' to check C / C++ code style
+[2.847s] -- Configured uncrustify additional arguments: 
+[2.854s] -- Configuring done
+[2.946s] -- Generating done
+[2.981s] -- Build files have been written to: /home/leejunmi/ros2_ws/build/velodyne_pointcloud
+[3.012s] Invoked command in '/home/leejunmi/ros2_ws/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:/home/leejunmi/ros2_ws/install/microstrain_inertial_description:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leejunmi/ros2_ws/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/velodyne_pointcloud
+[3.018s] Invoking command in '/home/leejunmi/ros2_ws/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs:/home/leejunmi/ros2_ws/install/tutorial_interfaces:/home/leejunmi/ros2_ws/install/turtlesim:/home/leejunmi/ros2_ws/install/number:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/microstrain_inertial_rqt:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs:/home/leejunmi/ros2_ws/install/microstrain_inertial_description:/home/leejunmi/ros2_ws/install/examples_rclcpp_wait_set:/home/leejunmi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/leejunmi/ros2_ws/install/examples_rclcpp_async_client LD_LIBRARY_PATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leejunmi/ros2_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/velodyne_pointcloud -- -j8 -l8
+[3.131s] [  5%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cpp.o[0m
+[3.131s] [ 11%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/organized_cloudXYZIRT.cpp.o[0m
+[3.134s] [ 16%] [32mBuilding CXX object CMakeFiles/velodyne_cloud_types.dir/src/lib/pointcloudXYZIRT.cpp.o[0m
+[3.134s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.135s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.135s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/calibration.cpp.o[0m
+[5.362s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.477s] [ 38%] Built target gtest_main

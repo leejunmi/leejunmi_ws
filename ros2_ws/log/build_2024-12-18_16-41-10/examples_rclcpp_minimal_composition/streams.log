@@ -1,0 +1,5 @@
+[0.036s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[0.187s] [ 33%] Built target composition_nodes
+[0.225s] [ 77%] Built target composition_subscriber
+[0.225s] [ 77%] Built target composition_composed
+[0.227s] [100%] Built target composition_publisher

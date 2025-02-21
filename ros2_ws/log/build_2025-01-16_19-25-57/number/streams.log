@@ -1,0 +1,209 @@
+[0.050s] Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/number -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/number
+[1.423s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.424s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.425s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.425s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.426s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.426s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.426s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.426s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.427s] -- Added test 'lint_cmake' to check CMake code style
+[1.427s] -- Added test 'xmllint' to check XML markup files
+[1.427s] -- Configuring done
+[1.427s] -- Generating done
+[1.427s] -- Build files have been written to: /home/leejunmi/ros2_ws/build/number
+[1.779s] Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/number -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/number
+[1.781s] Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
+[1.834s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_generator_c[0m
+[1.857s] [  3%] Built target number__cpp
+[1.858s] [  6%] [32mBuilding C object CMakeFiles/number__rosidl_generator_c.dir/rosidl_generator_c/number/msg/detail/num_num__functions.c.o[0m
+[1.898s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_cpp[0m
+[1.898s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_cpp[0m
+[1.902s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_introspection_cpp[0m
+[1.902s] [  6%] Built target ament_cmake_python_copy_number
+[1.931s] [  9%] [32mBuilding CXX object CMakeFiles/number__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/number/msg/detail/dds_fastrtps/num_num__type_support.cpp.o[0m
+[1.940s] [ 12%] [32mBuilding CXX object CMakeFiles/number__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/number/msg/num_num__type_support.cpp.o[0m
+[1.953s] [ 16%] [32mBuilding CXX object CMakeFiles/number__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/number/msg/detail/num_num__type_support.cpp.o[0m
+[2.120s] [ 19%] [32m[1mLinking C shared library libnumber__rosidl_generator_c.so[0m
+[2.298s] [ 22%] Built target number__rosidl_generator_c
+[2.330s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_c[0m
+[2.346s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_c[0m
+[2.349s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_introspection_c[0m
+[2.389s] [ 25%] [32mBuilding C object CMakeFiles/number__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/number/msg/detail/num_num__type_support.c.o[0m
+[2.421s] [ 29%] [32mBuilding CXX object CMakeFiles/number__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/number/msg/detail/num_num__type_support_c.cpp.o[0m
+[2.462s] [ 32%] [32mBuilding CXX object CMakeFiles/number__rosidl_typesupport_c.dir/rosidl_typesupport_c/number/msg/num_num__type_support.cpp.o[0m
+[2.511s] [ 35%] [32m[1mLinking C shared library libnumber__rosidl_typesupport_introspection_c.so[0m
+[2.563s] [ 38%] [32m[1mLinking CXX shared library libnumber__rosidl_typesupport_c.so[0m
+[2.652s] [ 41%] Built target number__rosidl_typesupport_introspection_c
+[2.657s] [ 45%] Built target number__rosidl_typesupport_c
+[3.170s] [ 48%] [32m[1mLinking CXX shared library libnumber__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.341s] [ 51%] [32m[1mLinking CXX shared library libnumber__rosidl_typesupport_cpp.so[0m
+[3.430s] [ 54%] Built target number__rosidl_typesupport_cpp
+[3.480s] [ 58%] Built target number__rosidl_typesupport_fastrtps_cpp
+[3.483s] running egg_info
+[3.496s] writing number.egg-info/PKG-INFO
+[3.496s] writing dependency_links to number.egg-info/dependency_links.txt
+[3.496s] writing top-level names to number.egg-info/top_level.txt
+[3.510s] reading manifest file 'number.egg-info/SOURCES.txt'
+[3.510s] writing manifest file 'number.egg-info/SOURCES.txt'
+[3.663s] [ 58%] Built target ament_cmake_python_build_number_egg
+[4.099s] [ 61%] [32m[1mLinking CXX shared library libnumber__rosidl_typesupport_fastrtps_c.so[0m
+[4.199s] [ 64%] [32m[1mLinking CXX shared library libnumber__rosidl_typesupport_introspection_cpp.so[0m
+[4.353s] [ 67%] Built target number__rosidl_typesupport_introspection_cpp
+[4.578s] [ 70%] Built target number__rosidl_typesupport_fastrtps_c
+[4.640s] [ 70%] Built target number
+[4.679s] [ 74%] Built target number__py
+[4.708s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_generator_py[0m
+[4.736s] [ 77%] [32mBuilding C object CMakeFiles/number__rosidl_generator_py.dir/rosidl_generator_py/number/msg/_num_num_s.c.o[0m
+[4.937s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/number/libnumber__rosidl_generator_py.so[0m
+[4.999s] [ 80%] Built target number__rosidl_generator_py
+[5.021s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.021s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_introspection_c__pyext[0m
+[5.032s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_c__pyext[0m
+[5.046s] [ 83%] [32mBuilding C object CMakeFiles/number__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/number/_number_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.057s] [ 87%] [32mBuilding C object CMakeFiles/number__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/number/_number_s.ep.rosidl_typesupport_c.c.o[0m
+[5.057s] [ 90%] [32mBuilding C object CMakeFiles/number__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/number/_number_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.200s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/number/number_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.200s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/number/number_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.210s] [100%] [32m[1mLinking C shared library rosidl_generator_py/number/number_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.241s] [100%] Built target number__rosidl_typesupport_fastrtps_c__pyext
+[5.242s] [100%] Built target number__rosidl_typesupport_introspection_c__pyext
+[5.259s] [100%] Built target number__rosidl_typesupport_c__pyext
+[5.273s] Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
+[5.285s] Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number
+[5.293s] -- Install configuration: "Debug"
+[5.293s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/ament_index/resource_index/rosidl_interfaces/number
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__type_support.h
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__functions.c
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__struct.h
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__functions.h
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/num_num.h
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/rosidl_generator_c__visibility_control.h
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/environment/library_path.sh
+[5.294s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/environment/library_path.dsv
+[5.294s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_generator_c.so
+[5.294s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_generator_c.so" to ""
+[5.294s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.295s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.295s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.295s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.295s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__rosidl_typesupport_fastrtps_c.h
+[5.295s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_fastrtps_c.so
+[5.295s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_fastrtps_c.so" to ""
+[5.295s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.296s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.296s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.296s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.296s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__rosidl_typesupport_introspection_c.h
+[5.296s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__type_support.c
+[5.296s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_introspection_c.so
+[5.296s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_introspection_c.so" to ""
+[5.297s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_c.so
+[5.297s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_c.so" to ""
+[5.297s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.297s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.297s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.297s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__struct.hpp
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__builder.hpp
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__type_support.hpp
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__traits.hpp
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/num_num.hpp
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/dds_fastrtps
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.298s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_fastrtps_cpp.so
+[5.298s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.298s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number
+[5.299s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg
+[5.299s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail
+[5.299s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__rosidl_typesupport_introspection_cpp.hpp
+[5.299s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/include/number/number/msg/detail/num_num__type_support.cpp
+[5.299s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_introspection_cpp.so
+[5.299s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_introspection_cpp.so" to ""
+[5.299s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_cpp.so
+[5.300s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_typesupport_cpp.so" to ""
+[5.300s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/environment/pythonpath.sh
+[5.300s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/environment/pythonpath.dsv
+[5.300s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number-0.0.0-py3.10.egg-info
+[5.300s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number-0.0.0-py3.10.egg-info/PKG-INFO
+[5.300s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number-0.0.0-py3.10.egg-info/top_level.txt
+[5.300s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.300s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/_number_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/msg
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/msg/_num_num.py
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/msg/__init__.py
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/msg/_num_num_s.c
+[5.301s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/_number_s.ep.rosidl_typesupport_c.c
+[5.301s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.301s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/libnumber__rosidl_generator_py.so
+[5.301s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/__init__.py
+[5.301s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/_number_s.ep.rosidl_typesupport_introspection_c.c
+[5.301s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.345s] Listing '/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number'...
+[5.345s] Compiling '/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/__init__.py'...
+[5.345s] Listing '/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/msg'...
+[5.353s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.353s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.353s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.354s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.354s] -- Installing: /home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.354s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/local/lib/python3.10/dist-packages/number/number_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.355s] -- Installing: /home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_generator_py.so
+[5.355s] -- Set runtime path of "/home/leejunmi/ros2_ws/install/number/lib/libnumber__rosidl_generator_py.so" to ""
+[5.355s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/msg/NumNum.idl
+[5.355s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/msg/NumNum.msg
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/ament_index/resource_index/package_run_dependencies/number
+[5.356s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/ament_index/resource_index/parent_prefix_path/number
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/environment/ament_prefix_path.sh
+[5.356s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/environment/ament_prefix_path.dsv
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/environment/path.sh
+[5.356s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/environment/path.dsv
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/local_setup.bash
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/local_setup.sh
+[5.356s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/local_setup.zsh
+[5.356s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/local_setup.dsv
+[5.357s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/package.dsv
+[5.357s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/ament_index/resource_index/packages/number
+[5.357s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_generator_cExport.cmake
+[5.357s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_generator_cExport-debug.cmake
+[5.358s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_typesupport_fastrtps_cExport.cmake
+[5.358s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_typesupport_fastrtps_cExport-debug.cmake
+[5.358s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_introspection_cExport.cmake
+[5.358s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_introspection_cExport-debug.cmake
+[5.359s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_cExport.cmake
+[5.359s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_cExport-debug.cmake
+[5.359s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_generator_cppExport.cmake
+[5.359s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.360s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_typesupport_fastrtps_cppExport-debug.cmake
+[5.360s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_introspection_cppExport.cmake
+[5.360s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_introspection_cppExport-debug.cmake
+[5.361s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_cppExport.cmake
+[5.361s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/number__rosidl_typesupport_cppExport-debug.cmake
+[5.361s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_generator_pyExport.cmake
+[5.361s] -- Installing: /home/leejunmi/ros2_ws/install/number/share/number/cmake/export_number__rosidl_generator_pyExport-debug.cmake
+[5.361s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/rosidl_cmake-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/ament_cmake_export_libraries-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/ament_cmake_export_targets-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/numberConfig.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/cmake/numberConfig-version.cmake
+[5.362s] -- Up-to-date: /home/leejunmi/ros2_ws/install/number/share/number/package.xml
+[5.365s] Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leejunmi/ros2_ws/install/lidar_intensity:/home/leejunmi/ros2_ws/install/py_pubsub:/home/leejunmi/ros2_ws/install/test_pkg:/home/leejunmi/ros2_ws/install/python_parameters:/home/leejunmi/ros2_ws/install/pkpk:/home/leejunmi/ros2_ws/install/msg_test:/home/leejunmi/ros2_ws/install/my_package:/home/leejunmi/ros2_ws/install/launch_testing_examples:/home/leejunmi/ros2_ws/install/img:/home/leejunmi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_service:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_client:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/leejunmi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/leejunmi/ros2_ws/install/examples_rclpy_guard_conditions:/home/leejunmi/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number

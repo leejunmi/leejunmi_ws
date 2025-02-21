@@ -1,0 +1,31 @@
+[0.043s] Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
+[1.397s] [  3%] Built target number__cpp
+[1.397s] [ 12%] Built target number__rosidl_generator_c
+[1.397s] [ 12%] Built target ament_cmake_python_copy_number
+[1.397s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_cpp[0m
+[1.397s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_introspection_cpp[0m
+[1.397s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_cpp[0m
+[1.397s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_c[0m
+[1.397s] [ 22%] Built target number__rosidl_typesupport_introspection_cpp
+[1.397s] [ 41%] Built target number__rosidl_typesupport_c
+[1.398s] [ 41%] Built target number__rosidl_typesupport_fastrtps_cpp
+[1.398s] [ 51%] Built target number__rosidl_typesupport_fastrtps_c
+[1.398s] [ 61%] Built target number__rosidl_typesupport_cpp
+[1.398s] [ 70%] Built target number__rosidl_typesupport_introspection_c
+[1.398s] [ 70%] Built target number
+[1.399s] [ 74%] Built target number__py
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_generator_py[0m
+[1.399s] [ 80%] Built target number__rosidl_generator_py
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_c__pyext[0m
+[1.400s] [35m[1mConsolidate compiler generated dependencies of target number__rosidl_typesupport_introspection_c__pyext[0m
+[1.400s] [ 93%] Built target number__rosidl_typesupport_introspection_c__pyext
+[1.400s] [ 93%] Built target number__rosidl_typesupport_fastrtps_c__pyext
+[1.400s] [100%] Built target number__rosidl_typesupport_c__pyext
+[1.400s] running egg_info
+[1.401s] writing number.egg-info/PKG-INFO
+[1.401s] writing dependency_links to number.egg-info/dependency_links.txt
+[1.401s] writing top-level names to number.egg-info/top_level.txt
+[1.401s] reading manifest file 'number.egg-info/SOURCES.txt'
+[1.401s] writing manifest file 'number.egg-info/SOURCES.txt'
+[1.401s] [100%] Built target ament_cmake_python_build_number_egg

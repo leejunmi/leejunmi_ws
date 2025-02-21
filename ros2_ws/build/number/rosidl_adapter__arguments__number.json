@@ -1,0 +1,6 @@
+{
+  "package_name": "number",
+  "non_idl_tuples": [
+    "/home/leejunmi/ros2_ws/src/number:msg/NumNum.msg"
+  ]
+}

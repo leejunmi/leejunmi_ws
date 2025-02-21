@@ -1,0 +1,30 @@
+[3.449s] Invoking command in '/home/leejunmi/ros2_ws/src/lidar_intensity': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data
+[4.424s] running egg_info
+[4.424s] writing ../../build/lidar_intensity/lidar_intensity.egg-info/PKG-INFO
+[4.426s] writing dependency_links to ../../build/lidar_intensity/lidar_intensity.egg-info/dependency_links.txt
+[4.428s] writing entry points to ../../build/lidar_intensity/lidar_intensity.egg-info/entry_points.txt
+[4.428s] writing requirements to ../../build/lidar_intensity/lidar_intensity.egg-info/requires.txt
+[4.429s] writing top-level names to ../../build/lidar_intensity/lidar_intensity.egg-info/top_level.txt
+[4.443s] reading manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+[4.443s] adding license file 'LICENSE'
+[4.443s] writing manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+[4.444s] running build
+[4.444s] running build_py
+[4.445s] copying lidar_intensity/create_marker_noise.py -> /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity
+[4.446s] copying lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity
+[4.447s] running install
+[4.449s] running install_lib
+[4.453s] copying /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity/create_marker_noise.py -> /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity
+[4.454s] copying /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity
+[4.456s] byte-compiling /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity/create_marker_noise.py to create_marker_noise.cpython-310.pyc
+[4.462s] byte-compiling /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity/create_marker.py to create_marker.cpython-310.pyc
+[4.463s] running install_data
+[4.464s] running install_egg_info
+[4.471s] removing '/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info' (and everything under it)
+[4.473s] Copying ../../build/lidar_intensity/lidar_intensity.egg-info to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info
+[4.477s] running install_scripts
+[4.541s] Installing marker script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+[4.542s] Installing noise_marker script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+[4.542s] Installing s script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+[4.546s] writing list of installed files to '/home/leejunmi/ros2_ws/build/lidar_intensity/install.log'
+[4.648s] Invoked command in '/home/leejunmi/ros2_ws/src/lidar_intensity' returned '0': PYTHONPATH=/home/leejunmi/ros2_ws/build/lidar_intensity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_intensity build --build-base /home/leejunmi/ros2_ws/build/lidar_intensity/build install --record /home/leejunmi/ros2_ws/build/lidar_intensity/install.log --single-version-externally-managed install_data

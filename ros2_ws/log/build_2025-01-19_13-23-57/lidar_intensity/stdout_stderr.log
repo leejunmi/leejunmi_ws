@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/lidar_intensity/lidar_intensity.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_intensity/lidar_intensity.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_intensity/lidar_intensity.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_intensity/lidar_intensity.egg-info/requires.txt
+writing top-level names to ../../build/lidar_intensity/lidar_intensity.egg-info/top_level.txt
+reading manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lidar_intensity/lidar_intensity.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_intensity/create_marker_noise.py -> /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity
+copying lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity
+running install
+running install_lib
+copying /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity/create_marker_noise.py -> /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity
+copying /home/leejunmi/ros2_ws/build/lidar_intensity/build/lib/lidar_intensity/create_marker.py -> /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity
+byte-compiling /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity/create_marker_noise.py to create_marker_noise.cpython-310.pyc
+byte-compiling /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity/create_marker.py to create_marker.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lidar_intensity/lidar_intensity.egg-info to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/python3.10/site-packages/lidar_intensity-0.0.0-py3.10.egg-info
+running install_scripts
+Installing marker script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+Installing noise_marker script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+Installing s script to /home/leejunmi/ros2_ws/install/lidar_intensity/lib/lidar_intensity
+writing list of installed files to '/home/leejunmi/ros2_ws/build/lidar_intensity/install.log'
