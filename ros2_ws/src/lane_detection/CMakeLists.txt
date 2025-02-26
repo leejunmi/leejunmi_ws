@@ -14,7 +14,12 @@ find_package(rclpy REQUIRED)
 
 # add_executable(lane src/yolo_lane_pub.py) # 실행파일 만들기 -> python에서는 안 써
 # ament_target_dependencies(lane rclcpp std_msgs) # 파일이 종속성 사용가능하도록
-install(PROGRAMS scripts/yolo_lanedetection.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS 
+	scripts/yolo_lanedetection.py
+	lane_slidingwindow.py
+	DESTINATION lib/${PROJECT_NAME})
+
+
 
 
 
