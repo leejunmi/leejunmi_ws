@@ -1,4 +1,0 @@
-[console_scripts]
-p = msg_test.pub:main
-s = msg_test.sub:main
-
