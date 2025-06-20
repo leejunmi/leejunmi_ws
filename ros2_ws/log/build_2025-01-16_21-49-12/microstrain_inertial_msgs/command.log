@@ -1,2 +1,0 @@
-Invoking command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs': /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs
-Invoked command in '/home/leejunmi/ros2_ws/build/microstrain_inertial_msgs' returned '1': /usr/bin/cmake /home/leejunmi/ros2_ws/src/microstrain_inertial/microstrain_inertial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/microstrain_inertial_msgs

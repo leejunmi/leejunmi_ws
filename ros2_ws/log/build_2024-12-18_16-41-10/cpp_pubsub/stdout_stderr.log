@@ -1,5 +1,0 @@
--- Configuring incomplete, errors occurred!
-[31mCMake Error at CMakeLists.txt:14 (if):
-  Flow control statements are not properly nested.
-
-[0m

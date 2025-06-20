@@ -1,4 +1,0 @@
-[0.030s] Invoking command in '/home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
-[0.198s] [ 40%] Built target ping_pong
-[0.202s] [ 70%] Built target pong
-[0.203s] [100%] Built target ping

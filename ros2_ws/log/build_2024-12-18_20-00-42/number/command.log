@@ -1,6 +1,0 @@
-Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/number -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/number
-Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leejunmi/ros2_ws/src/number -DCMAKE_INSTALL_PREFIX=/home/leejunmi/ros2_ws/install/number
-Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
-Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leejunmi/ros2_ws/build/number -- -j8 -l8
-Invoking command in '/home/leejunmi/ros2_ws/build/number': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number
-Invoked command in '/home/leejunmi/ros2_ws/build/number' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leejunmi/ros2_ws/build/number
