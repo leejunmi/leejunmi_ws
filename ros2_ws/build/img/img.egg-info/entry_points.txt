@@ -1,4 +1,0 @@
-[console_scripts]
-pub = img.img_pub:main
-sub = img.img_sub:main
-
